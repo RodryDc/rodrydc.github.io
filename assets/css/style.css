@@ -121,3 +121,17 @@ p {
     align-items: center;
     text-align: center;
 }
+
+#contactar:hover,
+#copiar:hover {
+    animation: vibrar 1s ease-in-out infinite alternate;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
